@@ -1,5 +1,5 @@
 const apiKey = '86d7289f7af8bdca84b990e1dc854b32';
-const city = 'New York'; // Change this to your desired city
+const city = 'Kottayam'; 
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 fetch(apiUrl)
